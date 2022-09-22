@@ -1,0 +1,13 @@
+.animation{
+    transition: .5s ease all;
+}
+
+.dark-body{
+    background: #181818;
+}
+
+.card-body-dark{
+    background: #212529;
+    color: white;
+    
+}

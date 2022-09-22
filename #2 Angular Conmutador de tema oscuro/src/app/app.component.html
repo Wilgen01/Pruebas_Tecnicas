@@ -1,0 +1,53 @@
+<app-nav class="navbar-dark bg-dark"></app-nav>
+
+<div class="d-flex justify-content-end">
+<button (click)="cambiarTema()"
+        type="button" class="btn btn-primary mt-3 mr-5">
+  {{tema}} <i [ngClass]="{'bi-moon-fill':oscuro, 'bi-brightness-high-fill': !oscuro}" class="bi"></i>
+</button>
+</div>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+    <div class="col mt-4">
+      <app-card></app-card>
+    </div>
+  </div>
+</div>
